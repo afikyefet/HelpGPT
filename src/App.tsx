@@ -28,7 +28,8 @@ const App: React.FC = () => {
     return (
         <div
             style={{
-                background: '#f9f9f9',
+                background: 'rgb(48 48 48)',
+                color: 'white',
                 padding: '8px',
                 borderRadius: '4px',
                 boxShadow: '0 2px 8px rgba(0,0,0,0.15)',
@@ -46,7 +47,8 @@ const App: React.FC = () => {
                             top: '110%', // dropdown appears just below the button
                             left: 0,
                             zIndex: 1000,
-                            background: 'white',
+                            background: 'rgb(48 48 48)',
+                            color: 'white',
                             border: '1px solid #ccc',
                             padding: '4px',
                             width: '100%',

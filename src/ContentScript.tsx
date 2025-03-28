@@ -30,9 +30,6 @@ function initFloatingUI() {
         container.style.width = '220px'; // adjust to your liking
         container.style.zIndex = '999999'; // ensure it’s above ChatGPT’s UI
         container.style.position = 'fixed';
-        // container.style.backgroundColor = 'rgb(48 48 48)';
-        container.style.backgroundColor = 'red';
-        container.style.borderRadius = '8px';
         document.body.appendChild(container);
 
         // Render your React app into this container
